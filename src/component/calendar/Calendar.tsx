@@ -13,6 +13,7 @@ const Calendar = () => {
 
   return (
     <FullCalendar
+      themeSystem='flatly'
       plugins={[
         resourceTimelinePlugin,
         dayGridPlugin,
@@ -53,7 +54,7 @@ const Calendar = () => {
       windowResizeDelay={100}
       // expandRows={true}
       // navLinks={true}
-      // dayMaxEvents={true}
+      dayMaxEvents={true}
       // initialEvents={[
       //   {
       //     title: "nice event",
